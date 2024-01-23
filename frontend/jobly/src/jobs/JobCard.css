@@ -1,0 +1,79 @@
+.JobCard {
+  max-height: 250px;
+  margin-bottom: 1rem;
+  color: inherit;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.apply-button {
+  padding: 0.25rem 0.5rem; /* Adjust padding for a smaller button */
+  font-size: 0.75rem; /* Adjust font size for a smaller button */
+  margin-top: 0.5rem; /* Add some space between button and job details */
+}
+
+.card {
+  /* Add styles for the card container */
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.card-body {
+  /* Add styles for the card body */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-title {
+  /* Add styles for the card title */
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  /* Add styles for the card paragraph */
+  margin-bottom: 0.5rem;
+}
+
+.card div {
+  /* Add styles for the card div */
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  /* Add styles for the button */
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-danger {
+  /* Add styles for the danger button */
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  /* Add styles for the hover state of the danger button */
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-danger:disabled {
+  /* Add styles for the disabled state of the danger button */
+  opacity: 0.65;
+}
+
+.float-right {
+  /* Add styles for the float right class */
+  float: right;
+}
+  

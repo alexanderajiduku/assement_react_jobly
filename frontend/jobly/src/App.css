@@ -1,0 +1,71 @@
+/* App.css */
+
+.wallpaper {
+  /* Set background image and styling */
+  background-image: url('/logos/pexels-vlada-karpovich-4050426.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+  /* Add other styles as needed */
+}
+
+.Homepage {
+  /* Full viewport height minus header/footer or other elements height */
+  height: 100vh; /* Set the height to cover the entire viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  background-color: transparent; /* Remove the background color */
+  color: #333; /* Default text color */
+  padding: 20px; /* Padding for smaller screens */
+}
+
+.Homepage .container {
+  max-width: 600px; /* Max width for content */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main title */
+  color: #007bff; /* Brand color for title */
+  margin-bottom: 1rem; /* Spacing below the title */
+}
+
+p.lead {
+  font-size: 1.2rem; /* Larger font size for the subtitle */
+  margin-bottom: 2rem; /* More space above the buttons */
+}
+
+.btn {
+  padding: 0.75rem 1.25rem; /* Larger buttons for better clickability */
+  border-radius: 0.5rem; /* Rounded corners */
+  font-size: 1rem; /* Larger font for better readability */
+  margin: 0 0.5rem; /* Space between buttons */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Homepage {
+    height: auto; /* Auto height on smaller screens */
+    padding: 40px 20px; /* More padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Slightly smaller font size for title */
+  }
+
+  p.lead {
+    font-size: 1rem; /* Adjust subtitle size for smaller screens */
+  }
+}

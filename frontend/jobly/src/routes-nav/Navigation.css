@@ -1,0 +1,79 @@
+
+/* Navigation.css */
+
+/* Navbar container styles */
+.Navigation {
+    background-color: white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 0.5rem 1rem; /* Adjust padding for optimal spacing */
+    display: flex; /* Make the navbar a flex container */
+    justify-content: space-between; /* Space items evenly within the navbar */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Navbar brand styles */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; /* Larger font size for the brand */
+    color: #007bff; /* Adjust brand color */
+    margin-right: 2rem; /* Add some space between brand and nav items */
+  }
+  
+  /* Navbar link and item styles */
+  .nav-link,
+  .nav-item {
+    transition: color 0.3s;
+    font-size: 1rem; /* Font size for navigation links */
+    font-weight: bold; /* Make the links bold */
+    margin-right: 1rem; /* Consistent spacing between nav items */
+  }
+  
+  /* Hover effect for links */
+  .nav-link:hover {
+    color: #0056b3; /* Hover effect color for links */
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    color: black; /* Active link styling */
+  }
+  
+  /* Button specific styling */
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust padding to your preference */
+    border-radius: 0.25rem; /* Rounded corners */
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* Font size for buttons */
+    margin: 0 0.5rem; /* Space between buttons */
+  }
+  
+  /* Darker shade on button hover */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .nav-item {
+      margin-right: 0.5rem; /* Less space on smaller screens */
+    }
+    .navbar-brand {
+      margin-right: 1rem;
+    }
+  }
+  
+  .Navigation {
+    background-color: white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: black;
+  }
+  
+  

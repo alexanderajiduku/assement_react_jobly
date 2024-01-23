@@ -1,0 +1,37 @@
+/* SearchForm.css */
+
+/* Styles for the main container */
+.SearchForm {
+  padding: 1rem;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin-bottom: 1rem; /* 4px margin bottom (overriding mb-4) */
+}
+
+/* Styles for the form */
+.SearchForm .form-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between form elements */
+}
+
+/* Styles for the input field */
+.SearchForm .form-control {
+  flex-grow: 1; /* Input field takes available space */
+  margin-right: 0.5rem; /* Space between input field and button */
+}
+
+/* Styles for the submit button */
+.SearchForm .btn {
+  padding: 0.5rem 1rem; /* Padding around the text */
+  background-color: #007bff; /* Primary blue color */
+  border-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.SearchForm .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}

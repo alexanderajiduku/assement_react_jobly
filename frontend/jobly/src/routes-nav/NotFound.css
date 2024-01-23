@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif; /* Define the font family for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f8f9fa; /* Set a background color for the entire page */
+    color: #333; /* Default text color */
+  }
+  
+  /* Apply styles to specific elements if needed */
+  h1 {
+    font-size: 2.5rem; /* Adjust the font size for headings */
+    color: #007bff; /* Brand color for headings */
+    margin-bottom: 1rem; /* Spacing below headings */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust the font size for paragraphs */
+  }
+  
+  /* Add any other global styles you need for your entire page */
+  
